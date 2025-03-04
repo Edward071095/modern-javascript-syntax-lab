@@ -123,3 +123,40 @@ const userProfile = {
 
 console.log(userProfile);
 
+// ! Exercise 8:
+// a. Create a function with two parameters, `noun` and `adjective`.
+// 
+// b. Give `noun` a default value of "cat" and `adjective` a default value of 
+//    "orange".
+//
+// c. The function should log a sentence 'The cat is orange.' by default, but 
+//    should substitute the appropriate parameters when it is supplied with 
+//    arguments.
+//
+// Your code here:
+
+function addWords(noun = 'cat', adjective = 'orange') {
+    return `The ${noun} is ${adjective}`
+}
+
+addWords()
+
+console.log(addWords())
+
+// ! Exercise 9:
+// a. Convert the following `if...else` statement into a ternary:
+//
+//    if (pizza === 'tasty') {
+//      console.log('yum');
+//    } else {
+//      console.log('yuck');
+//    }
+//
+// Starting code (don't modify this):
+
+const pizza = 'tasty';
+
+// Your code here:
+let delicious = pizza === 'tasty' ? 'Yum' : 'Yuck'
+
+console.log(delicious);
