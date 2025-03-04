@@ -122,3 +122,4 @@ const userProfile = {
 };
 
 console.log(userProfile);
+
